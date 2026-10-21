@@ -310,6 +310,8 @@ body.sc .edge.t{opacity:1}
 .av img{width:100%;height:100%;object-fit:cover;display:block;border-radius:50%}
 nav .btn{white-space:nowrap}
 @media(max-width:480px){nav .btn{padding:10px 16px;font-size:14px}.logo{font-size:13px;letter-spacing:.04em}.av{width:44px;height:44px;margin-right:8px}}
+.hero{overflow-x:clip}
+html,body{overflow-x:clip}
 </style>
 </head>
 <body>
@@ -350,7 +352,7 @@ nav .btn{white-space:nowrap}
 <section id="works"><div class="w">
 <div class="head"><h2>My recent edits</h2><p class="mut">A look at my latest shorts and long-form videos.</p></div>
 <div class="tabs"><button class="on" data-t="s">Shorts</button><button data-t="v">Videos</button></div>
-<div id="shorts" class="g g4"><div class="th yt" data-yt="64TMDGr7hhU" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/64TMDGr7hhU/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="MhqoAQFEhhI" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/MhqoAQFEhhI/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="cbpthO1myhU" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/cbpthO1myhU/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="P4WWs3Oum78" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/P4WWs3Oum78/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div></div>
+<div id="shorts" class="g g4"><div class="th yt" data-yt="64TMDGr7hhU" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/64TMDGr7hhU/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="MhqoAQFEhhI" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/MhqoAQFEhhI/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="cbpthO1myhU" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/cbpthO1myhU/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th yt" data-yt="nQPnp21S9hc" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/nQPnp21S9hc/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div></div>
 <div id="vids" class="g g3" hidden><div class="th h yt" data-yt="4XjJDqRyoxA" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/4XjJDqRyoxA/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th h yt" data-yt="4lxR7oNbC8Q" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/4lxR7oNbC8Q/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div><div class="th h yt" data-yt="JQUqvZOqaxw" role="button" tabindex="0" aria-label="Play video" style="background-image:url(https://i.ytimg.com/vi/JQUqvZOqaxw/hqdefault.jpg),linear-gradient(160deg,#0f3a2c,var(--card))"><span class="pbtn">▶</span></div></div>
 <div class="c ytc"><h3>Watch more on YouTube</h3><p class="mut">More of my edits are waiting on my channel.</p><a class="btn" href="#" target="_blank" rel="noopener">Visit My Channel →</a></div>
 </div></section>
@@ -630,6 +632,7 @@ im.onload=()=>{if(im.naturalWidth>200){box.dataset.hd='1';box.style.backgroundIm
 im.onerror=()=>t(i+1);im.src=url})(0)}
 document.querySelectorAll('[data-yt]').forEach(up);
 })();
+
 </script>
 </body>
 </html>
